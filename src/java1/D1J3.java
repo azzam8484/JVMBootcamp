@@ -1,3 +1,5 @@
+package java1;
+
 import java.util.*;
 public class D1J3 {
     public static void main(String[] args) {
@@ -44,5 +46,18 @@ public class D1J3 {
 
     static double calculateCircumference(double radius) {
         return 2 * Math.PI * radius;
+    }
+
+    public static class NoStackTraceException extends RuntimeException
+    {
+        public NoStackTraceException(String message) {
+            super(message);
+        }
+
+        @Override
+        public synchronized Throwable fillInStackTrace() {
+            // Prevents the stack trace from being generated
+            return null;
+        }
     }
 }

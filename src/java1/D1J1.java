@@ -1,3 +1,5 @@
+package java1;
+
 public class D1J1 {
 
     static String Firstname;

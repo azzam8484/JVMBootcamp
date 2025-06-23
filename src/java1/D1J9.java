@@ -1,3 +1,5 @@
+package java1;
+
 public class D1J9
 {
     public static void main(String[] args) {

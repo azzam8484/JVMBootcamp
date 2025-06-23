@@ -1,3 +1,5 @@
+package java1;
+
 import java.util.*;
 public class D1J4 {
     public static void main(String[] args) {

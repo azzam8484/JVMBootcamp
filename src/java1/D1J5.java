@@ -1,3 +1,5 @@
+package java1;
+
 public class D1J5 {
     private String firstName;
     private String lastName;

@@ -1,3 +1,4 @@
+package java1;
 public class D1J6 {
     private String name;
     private String headOfficeAdd;
@@ -102,3 +103,38 @@ public class D1J6 {
 }
 
 
+class BOI extends D1J6 {
+    public BOI() {
+        setName("BOI");
+        setHeadOfficeAddress("Jammu, India");
+        setChairmanName("Ayush Gupta");
+        setBranchCount(5100);
+        setFdInterestRate(6.25);
+        setPersonalLoanInterestRate(11.5);
+        setHomeLoanInterestRate(8.85);
+    }
+}
+
+class SBI extends D1J6 {
+    public SBI() {
+        setName("SBI");
+        setHeadOfficeAddress("Budaun, India");
+        setChairmanName("Azzam khan");
+        setBranchCount(1234);
+        setFdInterestRate(10.5);
+        setPersonalLoanInterestRate(6.98);
+        setHomeLoanInterestRate(8.75);
+    }
+}
+
+class ICICI extends D1J6 {
+    public ICICI() {
+        setName("ICICI");
+        setHeadOfficeAddress("Jaipur, Rajasthan");
+        setChairmanName("Satwik Sharma");
+        setBranchCount(5339);
+        setFdInterestRate(7.0);
+        setPersonalLoanInterestRate(12.0);
+        setHomeLoanInterestRate(9.0);
+    }
+}

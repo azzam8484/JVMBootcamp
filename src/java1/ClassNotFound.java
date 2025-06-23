@@ -1,3 +1,5 @@
+package java1;
+
 public class ClassNotFound
 {
     public static void main(String[] args) {

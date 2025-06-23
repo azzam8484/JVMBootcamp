@@ -1,3 +1,5 @@
+package java1;
+
 public class D1J7 {
     public static void main(String[] args) {
         int[] nums = {10, 0, 20};
@@ -14,6 +16,14 @@ public class D1J7 {
         }
         finally {
             System.out.println("This is the finally block.");
+        }
+    }
+
+    public static class NoClassFound
+    {
+        public static void main(String[] args) {
+            HelloClass helper = new HelloClass();
+            helper.showMessage();
         }
     }
 }
